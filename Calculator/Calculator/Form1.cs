@@ -55,6 +55,7 @@ namespace Calculator
             int ans = number1 / number2;
 
             txtAns.Text = ans.ToString();
+            //output
         }
     }
 }
