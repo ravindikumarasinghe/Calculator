@@ -8,18 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
-            int ans = number1 + number2;
-
-            txtAns.Text = ans.ToString();
-            int ans = number1 + number2;
-
-            txtAns.Text = ans.ToString();
-            int ans = number1 + number2;
-
-            txtAns.Text = ans.ToString();
-
 namespace Calculator
 {
     public partial class Form1 : Form 1515551
