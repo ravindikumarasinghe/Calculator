@@ -18,9 +18,11 @@ namespace Calculator
         }
 
 
-            int ans = number1 + number2;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int number1 = int.Parse(txtNum1.Text);
+            int number2 = int.Parse(txtNum1.Text);
 
-            txtAns.Text = ans.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
