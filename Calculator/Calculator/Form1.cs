@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form 1515551
     {
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int number1 = int.Parse(txtNum1.Text);
-            int number2 = int.Parse(txtNum1.Text);
 
             int ans = number1 + number2;
 
