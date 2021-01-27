@@ -37,25 +37,6 @@ namespace Calculator
             txtAns.Text = ans.ToString();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int number1 = int.Parse(txtNum1.Text);
-            int number2 = int.Parse(txtNum1.Text);
 
-            int ans = number1 * number2;
-
-            txtAns.Text = ans.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            int number1 = int.Parse(txtNum1.Text);
-            int number2 = int.Parse(txtNum1.Text);
-
-            int ans = number1 / number2;
-
-            txtAns.Text = ans.ToString();
-            //output
-        }
     }
 }
